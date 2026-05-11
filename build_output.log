@@ -1,0 +1,29 @@
+
+> build
+> vite build
+
+vite v7.3.1 building client environment for production...
+transforming...
+resources/js/views/ProductsView.vue (16:9): Error when using sourcemap for reporting an error: Can't resolve original location of error.
+✓ 88 modules transformed.
+✗ Build failed in 820ms
+error during build:
+resources/js/views/ProductsView.vue (16:9): "useProductStore" is not exported by "resources/js/stores/product.js", imported by "resources/js/views/ProductsView.vue".
+file: /home/zsolt/Letöltések/API/Simple-Laravel-API-with-Service-and-Repository-Pattern-main/resources/js/views/ProductsView.vue:16:9
+
+14: 
+15: import { onMounted } from 'vue';
+16: import { useProductStore } from '@/stores/product';
+             ^
+17: import Pagination from '@/components/Pagination.vue';
+
+    at getRollupError (file:///home/zsolt/Let%C3%B6lt%C3%A9sek/API/Simple-Laravel-API-with-Service-and-Repository-Pattern-main/node_modules/rollup/dist/es/shared/parseAst.js:402:41)
+    at error (file:///home/zsolt/Let%C3%B6lt%C3%A9sek/API/Simple-Laravel-API-with-Service-and-Repository-Pattern-main/node_modules/rollup/dist/es/shared/parseAst.js:398:42)
+    at Module.error (file:///home/zsolt/Let%C3%B6lt%C3%A9sek/API/Simple-Laravel-API-with-Service-and-Repository-Pattern-main/node_modules/rollup/dist/es/shared/node-entry.js:17040:16)
+    at Module.traceVariable (file:///home/zsolt/Let%C3%B6lt%C3%A9sek/API/Simple-Laravel-API-with-Service-and-Repository-Pattern-main/node_modules/rollup/dist/es/shared/node-entry.js:17452:29)
+    at ModuleScope.findVariable (file:///home/zsolt/Let%C3%B6lt%C3%A9sek/API/Simple-Laravel-API-with-Service-and-Repository-Pattern-main/node_modules/rollup/dist/es/shared/node-entry.js:15070:39)
+    at ChildScope.findVariable (file:///home/zsolt/Let%C3%B6lt%C3%A9sek/API/Simple-Laravel-API-with-Service-and-Repository-Pattern-main/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at FunctionScope.findVariable (file:///home/zsolt/Let%C3%B6lt%C3%A9sek/API/Simple-Laravel-API-with-Service-and-Repository-Pattern-main/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at FunctionBodyScope.findVariable (file:///home/zsolt/Let%C3%B6lt%C3%A9sek/API/Simple-Laravel-API-with-Service-and-Repository-Pattern-main/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at Identifier.bind (file:///home/zsolt/Let%C3%B6lt%C3%A9sek/API/Simple-Laravel-API-with-Service-and-Repository-Pattern-main/node_modules/rollup/dist/es/shared/node-entry.js:5447:40)
+    at CallExpression.bind (file:///home/zsolt/Let%C3%B6lt%C3%A9sek/API/Simple-Laravel-API-with-Service-and-Repository-Pattern-main/node_modules/rollup/dist/es/shared/node-entry.js:2829:23)

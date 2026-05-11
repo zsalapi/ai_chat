@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "secure-serve": "node https-proxy.js & php artisan serve --port=8001"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.2.1",
+        "@vitejs/plugin-vue": "^6.0.4",
+        "autoprefixer": "^10.4.27",
+        "axios": "^1.13.6",
+        "laravel-vite-plugin": "^2.1.0",
+        "postcss": "^8.5.8",
+        "tailwindcss": "^4.2.1",
+        "vite": "^7.3.1"
+    },
+    "dependencies": {
+        "laravel-echo": "^2.3.1",
+        "pinia": "^3.0.4",
+        "pusher-js": "^8.4.0",
+        "vue": "^3.5.30",
+        "vue-router": "^5.0.3"
+    }
+}
