@@ -1,4 +1,4 @@
-# Event Management System (Secured)
+## AI-powered chat application with event-driven architecture, built on Laravel.
 
 A modern, high-security Event Management and Chat application for customers built with **Laravel 12**, **Vue 3**, and **Tailwind CSS**. This project features a robust security architecture including OAuth 2.0 / JWT authentication and mandatory HTTPS enforcement.
 The best feature is the AI automated chat for the Guests, They also can ask for Human Agent to answer.
