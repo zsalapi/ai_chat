@@ -1,9 +1,18 @@
 {
-    "name": "laravel/laravel",
+    "name": "zsalapi/ai_chat",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "AI-powered chat application with event-driven architecture, built on Laravel.",
+    "keywords": [ "laravel", "ai-chat", "local-llm", "ollama", "events", "realtime", "php", "private-ai" ],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Zsolt Alapi",
+            "email": "zsalapi@tutanota.com"
+        },
+        {
+            "name": "Taylor Otwell and contributors (Laravel)"
+        }    
+    ],
     "require": {
         "php": "^8.3",
         "guzzlehttp/guzzle": "^7.2",
